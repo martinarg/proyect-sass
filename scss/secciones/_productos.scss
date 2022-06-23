@@ -1,0 +1,35 @@
+/*productos*/
+
+.productosList {
+  display: flex;
+}
+
+.contentTotalProduct {
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+
+.contProduct {
+  display: flex;
+  border: #0899ba 3px solid;
+  border-radius: 5px;
+  margin-top: 2vw;
+  background-color: white;
+}
+
+.img-thumbnail {
+  margin-top: 1vw;
+}
+
+.imagenprod {
+  max-width: 100px;
+}
+
+.commentProduct {
+  font-size: 34px;
+  text-decoration: underline;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 1vw;
+  color: #fbfbfb;
+}

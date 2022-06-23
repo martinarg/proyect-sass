@@ -1,0 +1,80 @@
+/* header */
+
+.header {
+  background-color: #f8f9fa !important;
+  color: $coloTexto;
+  box-shadow: -1px 10px 5px 0px rgba(107, 106, 106, 0.75);
+  -webkit-box-shadow: -1px 10px 5px 0px rgba(107, 106, 106, 0.75);
+  -moz-box-shadow: -1px 10px 5px 0px rgba(107, 106, 106, 0.75);
+}
+
+.btnHeader {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: $coloTexto;
+  border: $coloTexto solid 3px;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline;
+  font-size: medium;
+  margin-top: 10px;
+
+  &:hover {
+    list-style: none;
+    border: $coloTexto solid 3px;
+    background-color: $coloTexto;
+    color: white;
+  }
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: $coloTexto !important;
+
+  &:hover {
+    text-decoration: none;
+    color: white !important;
+  }
+}
+
+.logoImg {
+  max-width: 130px;
+  animation-duration: 2s;
+  animation-name: mostrarLogo;
+}
+
+@keyframes mostrarLogo {
+  0% {
+    transform: rotatex(30deg);
+  }
+
+  100% {
+    transform: rotatex(70deg);
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-top: 18px;
+
+  li {
+    list-style: none;
+    margin-bottom: 15px;
+    margin-right: 5px;
+  }
+}
+
+.btnSlider {
+  display: none;
+  border: 3px solid $colorBase;
+  padding: 3vw;
+  border-radius: 7px;
+  text-decoration: none;
+  color: $colorBase;
+
+  a {
+    text-decoration: none;
+  }
+}

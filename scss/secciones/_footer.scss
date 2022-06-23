@@ -1,0 +1,99 @@
+/*footer */
+
+footer {
+  background-color: $coloTexto;
+  color: white;
+  margin-bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  position: relative;
+  bottom: 0vw;
+}
+
+ul {
+  display: inline-block;
+}
+
+.f1,
+.f2,
+.f3,
+.f4,
+.f5 {
+  list-style: none;
+  width: 15%;
+  justify-content: start;
+}
+
+.secFooter {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.divCopyRight {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgFoot {
+  display: inline-block;
+  max-height: 50px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoRedes {
+  max-width: 30px;
+  display: inline-block;
+}
+
+.btnFooter {
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.titfoot {
+  font-size: 25px;
+  margin-bottom: 5px;
+  transform: skewY(-25deg);
+}
+
+.textCopyRight {
+  padding-bottom: 15px;
+}
+
+/* grid */
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1.1fr 0.9fr;
+  grid-auto-flow: row;
+  grid-template-areas: "secFooter secFooter secFooter secFooter secFooter" "divCopyRight divCopyRight divCopyRight divCopyRight divCopyRight";
+  grid-area: footer;
+}
+
+.secFooter {
+  grid-area: secFooter;
+}
+
+.divCopyRight {
+  grid-area: divCopyRight;
+}
+.footer-mobile li {
+  list-style: none;
+}
+.nav-item .dropdown-item {
+  font-size: 2vw;
+}

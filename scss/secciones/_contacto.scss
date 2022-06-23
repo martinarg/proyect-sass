@@ -1,0 +1,56 @@
+/*contacto*/
+
+.formulario {
+  border: rgb(15, 163, 255) 5px solid;
+  padding: 10px;
+  background-color: white;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border: rgb(15, 163, 255) 2px solid;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border: rgb(15, 163, 255) 2px solid;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+.formulario {
+  input:focus {
+    outline: 0;
+    border: #0899ba 2px solid;
+    transform: scale(1.01);
+    transition: 0.3;
+  }
+
+  textarea:focus {
+    outline: 0;
+    border: #0899ba 2px solid;
+    transform: scale(1.02);
+    transition: 0.3;
+  }
+}
+
+.contactoSubmitBtn {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: $coloTexto;
+  border: $coloTexto 3px solid;
+  border-radius: 40px;
+  font-size: 20px;
+}

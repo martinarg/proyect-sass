@@ -1,0 +1,124 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.contenedor {
+  background-image: url("../img/billetes1000.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: saturation;
+  box-shadow: inset 0px 0px 3000px 3000px rgba(2, 34, 58, 0.6);
+  font-family: $Ubuntu;
+}
+
+/* main*/
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.billetes {
+  max-width: 100vw;
+}
+
+.imgContenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.divCentrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: #fff solid 2px;
+  border-radius: 15px;
+}
+
+.textoSobreImg {
+  color: white;
+  padding: 15px;
+  font-size: 49px;
+  animation-duration: 2s;
+  animation-name: crecerTexto;
+}
+
+@keyframes crecerTexto {
+  0% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* por que elegirnos */
+
+.mainContain {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.tituloPqe,
+.tituloAlianzas,
+.tituloproductos,
+.tituloContacto {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 3vw;
+  margin-bottom: 1vw;
+  font-size: 5vw;
+  color: $coloTexto;
+  animation-duration: 2s;
+  animation-name: mostrar;
+}
+
+@keyframes mostrar {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.textoPqe {
+  font-size: 40px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border: $coloTexto solid 3px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: white;
+}
+
+.nuestrasAlianzasBtn,
+.productosBtn {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: $coloTexto;
+  border: $coloTexto 3px solid;
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 43px;
+}
+
+.nuestrasAlianzasBtn:hover,
+.productosBtn:hover {
+  background-color: white;
+  color: $coloTexto;
+}
