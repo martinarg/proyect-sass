@@ -1,3 +1,4 @@
+
 /* dispositivos celulares */
 @media (max-width: 375px) {
   .billetes {
@@ -113,8 +114,8 @@
 
   .menuMobile {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
   }
 
@@ -126,8 +127,7 @@
   }
 
   .contentTotalProduct {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    @include sizes(10vw, 10vw);
   }
 
   .commentProduct {
@@ -159,9 +159,8 @@
   /*por que elegirnos mobile*/
 
   .textoPqe {
-    font-size: 17px;
-    margin-left: 2vw;
-    margin-right: 1vw;
+    
+    @include sizes(2vw, 1vw);
   }
 
   .textMobileNo {

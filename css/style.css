@@ -4,6 +4,10 @@
   padding: 0; }
 
 /*variables al principio!!!*/
+.flexcenter, .secFooter, .divCopyRight, .info {
+  display: flex;
+  justify-content: center; }
+
 html {
   min-height: 100%;
   position: relative; }
@@ -191,14 +195,10 @@ ul {
 
 .secFooter {
   margin-top: 10px;
-  display: flex;
-  justify-content: center;
   align-items: flex-start; }
 
 .divCopyRight {
   margin-top: 10px;
-  display: flex;
-  justify-content: center;
   align-items: center; }
 
 .imgFoot {
@@ -206,8 +206,6 @@ ul {
   max-height: 50px; }
 
 .info {
-  display: flex;
-  justify-content: center;
   align-items: center; }
 
 .logoRedes {
@@ -429,8 +427,8 @@ textarea {
     text-align: center; }
   .menuMobile {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center; }
   /*mobile producto*/
   .contProduct {
@@ -456,7 +454,6 @@ textarea {
     width: 80vw; }
   /*por que elegirnos mobile*/
   .textoPqe {
-    font-size: 17px;
     margin-left: 2vw;
     margin-right: 1vw; }
   .textMobileNo {

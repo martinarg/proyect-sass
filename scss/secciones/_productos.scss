@@ -5,8 +5,7 @@
 }
 
 .contentTotalProduct {
-  margin-left: 25vw;
-  margin-right: 25vw;
+  @include sizes(25vw, 25vw);
 }
 
 .contProduct {
@@ -28,8 +27,7 @@
 .commentProduct {
   font-size: 34px;
   text-decoration: underline;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  @include sizes(10vw, 10vw);
   margin-top: 1vw;
   color: #fbfbfb;
 }

@@ -2,8 +2,7 @@
 
 .textoAlianza {
   font-size: 2vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  @include sizes(10vw, 10vw);
   line-height: 1.6;
   color: white;
 }

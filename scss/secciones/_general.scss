@@ -97,8 +97,7 @@ html {
 
 .textoPqe {
   font-size: 40px;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  @include sizes(10vw, 10vw);
   border: $coloTexto solid 3px;
   border-radius: 5px;
   padding: 15px;
