@@ -1,26 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 /*variables al principio!!!*/
 
-@import './variables/tipografia';
-@import './variables/colores';
-@import './variables/extends';
-@import './variables/mixins';
+@import "./variables/tipografia";
+@import "./variables/colores";
+@import "./variables/extends";
+@import "./variables/mixins";
 
-@import './secciones/general';
-@import './secciones/header';
-@import './secciones/footer';
-@import './secciones/index';
-@import './secciones/alianzas';
-@import './secciones/productos';
-@import './secciones/contacto';
-@import './secciones/mobile';
-
-
- 
-
-
-
-
+@import "./secciones/general";
+@import "./secciones/header";
+@import "./secciones/footer";
+@import "./secciones/index";
+@import "./secciones/alianzas";
+@import "./secciones/productos";
+@import "./secciones/contacto";
+@import "./secciones/mobile";
