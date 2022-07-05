@@ -109,6 +109,22 @@ html {
   background-color: white;
   color: #178aee; }
 
+img.btn-whatsapp {
+  display: block !important;
+  position: fixed;
+  z-index: 9999999;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  border-radius: 100px !important; }
+
+img.btn-whatsapp:hover {
+  border-radius: 100px !important;
+  -webkit-box-shadow: 0px 0px 15px 0px #075e54;
+  -moz-box-shadow: 0px 0px 15px 0px #075e54;
+  box-shadow: 0px 0px 15px 0px #075e54;
+  transition-duration: 1s; }
+
 /* header */
 .header {
   background-color: #f8f9fa !important;
@@ -123,7 +139,7 @@ html {
   color: #178aee;
   border: #178aee solid 3px;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 25px 0px;
   display: inline;
   font-size: medium;
   margin-top: 10px; }
@@ -221,8 +237,7 @@ ul {
 
 .titfoot {
   font-size: 25px;
-  margin-bottom: 5px;
-  transform: skewY(-25deg); }
+  margin-bottom: 5px; }
 
 .textCopyRight {
   padding-bottom: 15px; }
@@ -354,6 +369,9 @@ textarea {
   border-radius: 40px;
   font-size: 20px; }
 
+.mapa {
+  margin-top: 15vw; }
+
 /* dispositivos celulares */
 @media (max-width: 375px) {
   .billetes {
@@ -465,4 +483,6 @@ textarea {
   .textoAlianza {
     display: none; }
   .img-thumbnail {
-    margin-top: 4vw; } }
+    margin-top: 4vw; }
+  .textoPqehistoria, .textoPqevision {
+    font-size: 5vw; } }
