@@ -6,8 +6,11 @@
   box-shadow: -1px 10px 5px 0px rgba(107, 106, 106, 0.75);
   -webkit-box-shadow: -1px 10px 5px 0px rgba(107, 106, 106, 0.75);
   -moz-box-shadow: -1px 10px 5px 0px rgba(107, 106, 106, 0.75);
+  font-family: $MavenPro;
 }
-
+.dropdown-menu{
+  margin-top: 1.125rem !important;
+}
 .btnHeader {
   text-decoration: none;
   text-transform: capitalize;

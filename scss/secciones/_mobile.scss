@@ -168,8 +168,11 @@
   .nuestrasAlianzasBtn,
   .productosBtn {
     font-size: 7vw;
+    padding: 2vw 8vw;
   }
-
+  .visionImgAbajo{
+    display: none;
+  }
   /* alianzas */
 
   .textoAlianza {
@@ -183,4 +186,5 @@
   .textoPqevision {
     font-size: 5vw;
   }
+  
 }

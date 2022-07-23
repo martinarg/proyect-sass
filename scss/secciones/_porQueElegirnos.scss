@@ -1,3 +1,15 @@
-.textoPqehistoria, .textoPqevision{
-    font-size: 10vw;
-  }
+.textoPqehistoria,
+.textoPqevision {
+  font-size: 2vw;
+}
+.scrollspy-example {
+  height: 30vw;
+  margin-top: 0.5rem;
+  overflow: auto;
+}
+.lista{
+  font-family: $PTSans;
+}
+.visionImgAbajo, .viosionImgArriba{
+  margin-top: 4vw;
+}

@@ -1,12 +1,9 @@
 /*contacto*/
 
-.formulario {
-  border: rgb(15, 163, 255) 5px solid;
-  padding: 10px;
-  background-color: white;
-}
+
 
 input {
+  color: #178aee;
   background-color: #fbfbfb;
   width: 408px;
   height: 40px;
@@ -18,6 +15,7 @@ input {
 }
 
 textarea {
+  color: #178aee;
   background-color: #fbfbfb;
   width: 405px;
   height: 150px;
@@ -30,16 +28,23 @@ textarea {
 }
 
 .formulario {
+  font-family: $PTSans;
+  border: rgb(15, 163, 255) 2px solid;
+  padding: 10px;
+  background-color: white;
+  color: #178aee;
+
   input:focus {
     outline: 0;
-    border: #0899ba 2px solid;
+    border: #09ffeb 2px solid;
     transform: scale(1.01);
     transition: 0.3;
   }
+  
 
   textarea:focus {
     outline: 0;
-    border: #0899ba 2px solid;
+    border: #09ffeb 2px solid;
     transform: scale(1.02);
     transition: 0.3;
   }

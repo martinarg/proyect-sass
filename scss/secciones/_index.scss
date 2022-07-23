@@ -1,4 +1,42 @@
 .contenedorIndex {
-  background-color: white;
   font-family: $Ubuntu;
+  background-image: url(../img/billetes.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: saturation;
+  box-shadow: inset 0px 0px 3000px 3000px rgba(2, 34, 58, 0.6);
+}
+.textoSobreImg {
+  color: white;
+  padding: 15px;
+  font-size: 49px;
+  animation-duration: 2s;
+  animation-name: crecerTexto;
+  font-family: $PTSans;
+  text-shadow: 3px 2px 6px #3BCBFF;
+
+}
+
+.textoSobreImg:hover, .textoSobreImg:focus {
+  background-size: 100% 2px;
+}
+.mainContain{
+  min-height: 33vw;
+}
+
+.imgContenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.divCentrado {
+  position: absolute;
+  top: 23vw;
+  left: 46vw;
+  transform: translate(-50%, -50%);
+
+
 }
