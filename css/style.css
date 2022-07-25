@@ -83,12 +83,17 @@ html {
   border: #178aee 3px solid;
   border-radius: 40px;
   font-size: 2vw;
-  padding: 1vw 3vw; }
+  padding: 0vw 2vw; }
 
-.nuestrasAlianzasBtn:hover,
-.productosBtn:hover {
+.nuestrasAlianzasBtn:hover {
+  color: #178aee;
   background-color: white;
   color: #178aee; }
+
+.productosBtn:hover {
+  color: #178aee;
+  background-color: transparent;
+  color: #f8f9fa; }
 
 img.btn-whatsapp {
   display: block !important;
@@ -403,6 +408,10 @@ textarea {
   border: #178aee 3px solid;
   border-radius: 40px;
   font-size: 20px; }
+
+.contactoSubmitBtn:hover {
+  color: #178aee;
+  background-color: white; }
 
 .mapa {
   margin-top: 15vw; }

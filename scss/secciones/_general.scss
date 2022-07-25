@@ -93,14 +93,20 @@ html {
   border: #178aee 3px solid;
   border-radius: 40px;
   font-size: 2vw;
-  padding: 1vw 3vw;
+  padding: 0vw 2vw;
   
 }
 
-.nuestrasAlianzasBtn:hover,
-.productosBtn:hover {
-  background-color: white;
+.nuestrasAlianzasBtn:hover{
   color: $coloTexto;
+  background-color: white;
+  color: #178aee;
+}
+.productosBtn:hover {
+  
+  color: $coloTexto;
+  background-color: transparent;
+  color: #f8f9fa;
 }
 
 img.btn-whatsapp {
